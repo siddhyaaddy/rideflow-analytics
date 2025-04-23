@@ -1,0 +1,13 @@
+prefix=/Users/siddharthadhikari/github/aws_sp25
+exec_prefix=/Users/siddharthadhikari/github/aws_sp25
+libdir=/Users/siddharthadhikari/github/aws_sp25/lib
+sharedlibdir=/Users/siddharthadhikari/github/aws_sp25/lib
+includedir=/Users/siddharthadhikari/github/aws_sp25/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
